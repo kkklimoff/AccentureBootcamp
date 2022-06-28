@@ -15,10 +15,10 @@ public class Task6 {
         System.out.print("Enter value b: ");
         b = sc.nextInt();
 
-        if((a==b) ||
+        if ((a == b) ||
                 (a < 0 && b > 0) ||
                 (a > 100 && b > 100))
             res = true;
-        System.out.printf("a is %d and b is %d -> %b", a, b ,res);
+        System.out.printf("a is %d and b is %d -> %b", a, b, res);
     }
 }
