@@ -19,6 +19,4 @@ public class Task5 {
         Truck ford = new Truck("OH-3888", "Ford", "F-150", 6, 200);
         ford.setCargoWeight(1600);
     }
-
-
 }

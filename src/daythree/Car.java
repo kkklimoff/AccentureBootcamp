@@ -37,7 +37,7 @@ public class Car extends Vehicle {
 
     @Override
     public void drive() {
-        if (this.currentGear != 1 && this.speed == 0){
+        if (this.currentGear != 1 && this.speed == 0) {
             System.out.println("You can only start in the 1st gear");
             return;
         }

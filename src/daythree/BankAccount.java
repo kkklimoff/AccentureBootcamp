@@ -23,7 +23,7 @@ public class BankAccount {
         System.out.printf("Current balance: %f%n", this.balance);
     }
 
-    public void transferFrom(BankAccount destination, double amount){
+    public void transferFrom(BankAccount destination, double amount) {
 
         this.balance -= amount;
         destination.balance += amount;

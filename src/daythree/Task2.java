@@ -9,7 +9,7 @@ public class Task2 {
         int[] sourceArray = {3, 13, 37, 88};
         int[] destinationArray = new int[4];
 
-        for (int i = 0; i < sourceArray.length; i++){
+        for (int i = 0; i < sourceArray.length; i++) {
             destinationArray[i] = sourceArray[i];
         }
 
