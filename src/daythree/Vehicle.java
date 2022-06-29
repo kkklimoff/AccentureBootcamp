@@ -18,10 +18,6 @@ public abstract class Vehicle {
         return speed;
     }
 
-    public void setSpeed(double speed) {
-        this.speed = speed;
-    }
-
     public String getLicenceNumber() {
         return licenceNumber;
     }
