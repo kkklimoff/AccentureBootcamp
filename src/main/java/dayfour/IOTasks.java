@@ -1,5 +1,4 @@
 package dayfour;
-
 import java.io.*;
 import java.util.Date;
 
